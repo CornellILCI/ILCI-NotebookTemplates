@@ -17,3 +17,12 @@ For example `template_rtassel_demo.ipynb` we create `template_rtassel_demo.info`
 ```
 process data from BrAPI sources with RTassel
 ```
+
+## BrAPI Helper
+
+To intall the **experimental** BrAPI Helper extension open the command line and run:
+``` bash
+/opt/shared/test_dir/brapi_helper_installer.run
+```
+This extension is only avaiable for a subset of users for testing.
+
