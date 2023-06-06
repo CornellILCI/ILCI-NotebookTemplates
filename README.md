@@ -1,4 +1,4 @@
-# ILCI_NotebookTemplates
+# ILCI-NotebookTemplates
 
 ## Overview
 
