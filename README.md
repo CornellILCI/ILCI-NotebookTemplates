@@ -26,3 +26,6 @@ To intall the **experimental** BrAPI Helper extension open the command line and 
 ```
 This extension is only avaiable for a subset of users for testing.
 
+## Notes
+
+We would also like to look at how templates are used and managed by the [jupytemplate](https://github.com/xtreamsrl/jupytemplate) and the [jupyterlab_templates](https://github.com/finos/jupyterlab_templates) extensions.
