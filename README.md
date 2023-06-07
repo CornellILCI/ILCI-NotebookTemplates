@@ -49,7 +49,7 @@ This extension is only avaiable for a subset of users for testing.
 ### Using templates (not imeplemented yet!!)
 
 The BrAPI extension reads templates from the `$HOME/templates` directory (not implemented yet).
-If you wish to use the templates from this repo with the extension directly you could create a symlink to the content of this repo. For instance lets assume you clone this repo from your `$HOME` directory, this will create `$HOME/ILCI-NotebookTemplates`
+If you wish to use the templates from this repo with the extension directly you could create a symlink to the this repo's contents. For instance lets assume you clone this repo from your `$HOME` directory, this will create `$HOME/ILCI-NotebookTemplates`
 ``` bash
 ln -s $HOME/ILCI-NotebookTemplates/src/templates $HOME
 ```
