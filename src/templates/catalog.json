@@ -1,8 +1,12 @@
 {
-    "data": [
-        {
-            "name": "template_rtassel_demo.ipynb",
-            "description": "Process data from BrAPI sources with rTASSEL"
-        }
-    ]
+  "data": [
+    {
+      "name": "template_rtassel_demo.ipynb",
+      "description": "Process data from BrAPI sources with rTASSEL"
+    },
+    {
+      "name": "01_rTASSEL_load_data.ipynb",
+      "description": "Load genotype and phenotype data into rTASSEL"
+    }
+  ]
 }
