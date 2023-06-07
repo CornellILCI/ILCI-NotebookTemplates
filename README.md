@@ -13,7 +13,7 @@ The repository is experimental, expect things to break.
 
 Templates are located in the [src/templates/](src/templates/) directory.
 For each template write to a text file a brief one liner (just a few words) that describes what the template does, name this file with the following pattern `template_name.info`.
-For example `template_rtassel_demo.ipynb` we create `template_rtassel_demo.info` with these contents:
+For example, to describe what `template_rtassel_demo.ipynb` does  we would create `template_rtassel_demo.info` with these contents in a single line:
 ```
 Process data from BrAPI sources with rTASSEL
 ```
@@ -45,6 +45,15 @@ To intall the **experimental** BrAPI Helper extension open the command line and 
 /opt/shared/test_dir/brapi_helper_installer.run
 ```
 This extension is only avaiable for a subset of users for testing.
+
+### Using templates (not imeplemented yet!!)
+
+The BrAPI extension reads templates from the `$HOME/templates` directory (not implemented yet).
+If you wish to use the templates from this repo with the extension directly you could create a symlink to the content of this repo. For instance lets assume you clone this repo from your `$HOME` directory, this will create `$HOME/ILCI-NotebookTemplates`
+``` bash
+ln -s $HOME/ILCI-NotebookTemplates/src/templates $HOME
+```
+
 
 ## Notes
 
