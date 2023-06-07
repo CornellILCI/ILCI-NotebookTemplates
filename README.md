@@ -11,11 +11,31 @@ The repository is experimental, expect things to break.
 
 ## Templates
 
-The templates are located in the `src/templates/` directory.
-A catalog with the template and a brief one liner (just a few words) can be added with the `template_name.info`.
+Templates are located in the [src/templates/](src/templates/) directory.
+For each template write to a text file a brief one liner (just a few words) that describes what the template does, name this file with the following pattern `template_name.info`.
 For example `template_rtassel_demo.ipynb` we create `template_rtassel_demo.info` with these contents:
 ```
-process data from BrAPI sources with RTassel
+Process data from BrAPI sources with rTASSEL
+```
+The metadata obtained from the info files will be used to generate a template [catalog](src/templates/catalog.json) in `JSON` format very similar to this:
+```JSON
+{
+    "data": [
+        {
+            "name": "some_template.ipynb",
+            "description": "brief description"
+        },
+        {
+            "name": "template_rtassel_demo.ipynb",
+            "description": "Process data from BrAPI sources with rTASSEL"
+        },
+        {
+            "name": "sommer_evals.ipynb",
+            "description": "mixed model analysis with Sommer"
+        }
+    ]
+}
+
 ```
 
 ## BrAPI Helper
