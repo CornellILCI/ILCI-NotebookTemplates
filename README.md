@@ -6,7 +6,7 @@ In this repository we expect to host a collection on Jupyter Notebook templates 
 
 The goal is to use these templates with the BrAPI helper JupyterLab extension, however these templates will be usable as standalone notebooks in `cookie cutter` fashion.
 
-The repository is experimental, expect things to break.
+The repository is experimental; expect things to break.
 
 
 ## Templates
@@ -17,7 +17,7 @@ For example, to describe what `template_rtassel_demo.ipynb` does  we would creat
 ```
 Process data from BrAPI sources with rTASSEL
 ```
-The metadata obtained from the info files will be used to generate a template [catalog](src/templates/catalog.json) in `JSON` format very similar to this:
+The metadata contained in the info files is used by `create_catalog.py` to generate a [catalog](src/templates/catalog.json) of all the templates in [src/templates/](src/templates/) in `JSON` format. The contents of `catalog.json` are  very similar to this:
 ```JSON
 {
     "data": [
@@ -40,16 +40,16 @@ The metadata obtained from the info files will be used to generate a template [c
 
 ## BrAPI Helper
 
-To intall the **experimental** BrAPI Helper extension open the command line and run:
+To install the **experimental** BrAPI Helper extension open the command line and run:
 ``` bash
 /opt/shared/test_dir/brapi_helper_installer.run
 ```
-This extension is only avaiable for a subset of users for testing.
+This extension is only available for a subset of users for testing.
 
-### Using templates (not imeplemented yet!!)
+### Using templates (not implemented yet!!)
 
 The BrAPI extension reads templates from the `$HOME/templates` directory (not implemented yet).
-If you wish to use the templates from this repo with the extension directly you could create a symlink to the this repo's contents. For instance lets assume you clone this repo from your `$HOME` directory, this will create `$HOME/ILCI-NotebookTemplates`
+If you wish to use the templates from this repo with the extension directly you, could create a symlink to the this repo's contents. For instance, let's assume you clone this repo from your `$HOME` directory, this will create `$HOME/ILCI-NotebookTemplates`
 ``` bash
 ln -s $HOME/ILCI-NotebookTemplates/src/templates $HOME
 ```
