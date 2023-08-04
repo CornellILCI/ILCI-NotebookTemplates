@@ -30,3 +30,5 @@ print(f"Saving to: {out_file}")
 # Write the catalog to a JSON file
 out_fp = open(out_file, "w")
 json.dump(catalog, out_fp, indent=INDENT)
+out_fp.write("\n")
+out_fp.close()

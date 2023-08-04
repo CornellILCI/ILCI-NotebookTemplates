@@ -5,8 +5,24 @@
       "description": "Process data from BrAPI sources with rTASSEL"
     },
     {
+      "name": "02_rTASSEL_GenotypeFiltering.ipynb",
+      "description": "Filter genotype data with rTASSEL"
+    },
+    {
       "name": "01_rTASSEL_load_data.ipynb",
       "description": "Load genotype and phenotype data into rTASSEL"
+    },
+    {
+      "name": "template_outline.ipynb",
+      "description": "Outline for creating templates"
+    },
+    {
+      "name": "04_rTASSEL_Phylogeny.ipynb",
+      "description": "Create phylogenetic trees with rTASSEL"
+    },
+    {
+      "name": "03_rTASSEL_PCA.ipynb",
+      "description": "Conduct and visualize a Principal Coordinate Analysis on genotype data using rTASSEL"
     }
   ]
 }
