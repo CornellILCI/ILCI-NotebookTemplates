@@ -24,5 +24,9 @@
       "name": "03_rTASSEL_PCA.ipynb",
       "description": "Conduct and visualize a Principal Coordinate Analysis on genotype data using rTASSEL"
     }
+    {
+      "name": "01_mm4lmm_gs_basics.ipynb",
+      "description": "Conduct basic genomic selection and cross fold validation accuracy tests"
+    }
   ]
 }
