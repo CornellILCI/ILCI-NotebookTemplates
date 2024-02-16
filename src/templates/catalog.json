@@ -1,28 +1,68 @@
 {
   "data": [
     {
+      "name": "01_rTASSEL_load_data.brapi.ipynb",
+      "description": "Load genotype and phenotype data into rTASSEL using the BrAPI helper"
+    },
+    {
+      "name": "06_rTASSEL_LinkageDisequilibrium.brapi.ipynb",
+      "description": "Linkage disequilibrium using rTASSEL with BrAPI data retrieval"
+    },
+    {
       "name": "template_rtassel_demo.ipynb",
       "description": "Process data from BrAPI sources with rTASSEL"
-    },
-    {
-      "name": "02_rTASSEL_GenotypeFiltering.ipynb",
-      "description": "Filter genotype data with rTASSEL"
-    },
-    {
-      "name": "01_rTASSEL_load_data.ipynb",
-      "description": "Load genotype and phenotype data into rTASSEL"
     },
     {
       "name": "template_outline.ipynb",
       "description": "Outline for creating templates"
     },
     {
-      "name": "04_rTASSEL_Phylogeny.ipynb",
+      "name": "07_rTASSEL_Kinship.ipynb",
+      "description": "Relationship matrices using rTASSEL with flat files."
+    },
+    {
+      "name": "06_rTASSEL_LinkageDisequilibrium.ipynb",
+      "description": "Linkage disequilibrium using rTASSEL with flat files."
+    },
+    {
+      "name": "07_rTASSEL_Kinship.brapi.ipynb",
+      "description": "Relationship matrices using rTASSEL with BrAPI data retrieval"
+    },
+    {
+      "name": "04_rTASSEL_PCA.ipynb",
+      "description": "Conduct and visualize a Principal Coordinate Analysis on genotype data using rTASSEL"
+    },
+    {
+      "name": "03_rTASSEL_SeqDiversity.brapi.ipynb",
+      "description": "Calculate sequence diversity metrics in rTASSEL with BrAPI data retrieval"
+    },
+    {
+      "name": "05_rTASSEL_Phylogeny.ipynb",
       "description": "Create phylogenetic trees with rTASSEL"
     },
     {
-      "name": "03_rTASSEL_PCA.ipynb",
-      "description": "Conduct and visualize a Principal Coordinate Analysis on genotype data using rTASSEL"
+      "name": "01_rTASSEL_load_data.ipynb",
+      "description": "Load genotype and phenotype data into rTASSEL"
+    },
+    {
+      "name": "05_rTASSEL_Phylogeny.brapi.ipynb",
+      "description": "Creating phylogenetic trees using rTASSEL with BrAPI data retrieval"
+    },
+    {
+      "name": "04_rTASSEL_PCA.brapi.ipynb",
+      "description": "Principal coordinate analysis using rTASSEL with BrAPI data retrieval"
+    },
+    {
+      "name": "03_rTASSEL_SeqDiversity.ipynb",
+      "description": "Calculate sequence diversity metrics in rTASSEL with flat files."
+    },
+    {
+      "name": "02_rTASSEL_GenotypeFiltering.brapi.ipynb",
+      "description": "Filter genotype data with rTASSEL using the BrAPI helper to retrieve data"
+    },
+    {
+      "name": "02_rTASSEL_GenotypeFiltering.ipynb",
+      "description": "Filter genotype data with rTASSEL"
     }
   ]
 }
