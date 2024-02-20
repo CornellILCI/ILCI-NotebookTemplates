@@ -30,7 +30,7 @@
     },
     {
       "name": "04_rTASSEL_PCA.ipynb",
-      "description": "Conduct and visualize a Principal Coordinate Analysis on genotype data using rTASSEL"
+      "description": "Conduct and visualize a Principal Component Analysis on genotype data using rTASSEL"
     },
     {
       "name": "03_rTASSEL_SeqDiversity.brapi.ipynb",
@@ -50,7 +50,7 @@
     },
     {
       "name": "04_rTASSEL_PCA.brapi.ipynb",
-      "description": "Principal coordinate analysis using rTASSEL with BrAPI data retrieval"
+      "description": "Principal Component Analysis using rTASSEL with BrAPI data retrieval"
     },
     {
       "name": "03_rTASSEL_SeqDiversity.ipynb",
