@@ -63,6 +63,10 @@
     {
       "name": "02_rTASSEL_GenotypeFiltering.ipynb",
       "description": "Filter genotype data with rTASSEL"
+    },
+    {
+      "name": "template_brapi_databases.ipynb",
+      "description": "Read data from BrAPI sources using QBMS functions (examples)"
     }
   ]
 }
