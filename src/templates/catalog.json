@@ -67,6 +67,14 @@
     {
       "name": "template_brapi_databases.ipynb",
       "description": "Read data from BrAPI sources using QBMS functions (examples)"
+    },
+    {
+      "name": "BrAPI_Helper_Demo_in_Action.brapi.ipynb",
+      "description": "BrAPI Helper Demo, Retrieve and plot phenotype data from BMS."
+    },
+    {
+      "name": "BrAPI_Helper_Demo_Geno_Pheno.brapi.ipynb",
+      "description": "BrAPI Helper Demo, Retrieve and plot genotype and phenotype data from GIGWA and BMS."
     }
   ]
 }
